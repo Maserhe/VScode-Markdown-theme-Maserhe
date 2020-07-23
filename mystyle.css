@@ -1,0 +1,435 @@
+/*初始化格式*/
+
+body {
+    line-height: 1.6;
+    letter-spacing: .034em;
+    color: rgb(63, 63, 63);
+    font-size: 16px;
+    word-break:all;
+    background-color: #ffffff;
+  }
+  
+body p {
+    padding-top: 23px;
+    color: rgb(74,74,74);
+    line-height: 1.75em;
+  }
+  
+  /* 一级标题 */
+body h1 {
+    text-align:center;
+    background-image: url(https://my-wechat.mdnice.com/mdnice/mountain_2_20191028221337.png); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95px;
+    line-height:95px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* 一级标题内容 */
+    font-size: 20px;
+    color: rgb(60, 112, 198);
+    border-bottom:2px solid #3C7076;
+  }
+  
+  
+body h2 {
+    display:block;
+    text-align:center;
+    background-image: url(https://my-wechat.mdnice.com/mdnice/mountain_2_20191028221337.png); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: 63px;
+    line-height:63px;
+    margin-top: 38px;
+    margin-bottom: 0px;
+
+     /* 二级标题内容 */
+    color: rgb(60, 112, 198);
+    font-size:18px;
+}
+  
+
+  /* 三级标题 */
+h3:before {
+    
+    content: "";
+    background-image:url(https://my-wechat.mdnice.com/mdnice/mountain_1_20191028221337.png);
+    background-size:15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height:15px;
+    margin-bottom:-1px;
+  }
+  
+h3 {
+    display:block;
+    font-size:16px;
+    font-weight:bold;
+    margin-left:8px;
+    color:rgb(60,112,198);
+}
+  
+
+  /* 列表内容 */
+li {
+    list-style-type:decimal;
+    list-style-position:outside
+}
+  
+  /* 引用
+   * 左边缘颜色 border-left-color:black;
+   * 背景色 background:gray;
+   */
+blockquote {
+    padding: 15px 20px;
+    line-height: 27px;
+    background-color: rgb(239, 239, 239);
+    border-left:none;
+    display:block;
+  }
+  
+  /* 引用文字 */
+blockquote p {
+    padding: 0px;
+    font-size:15px;
+    color:rgb(89,89,89);
+  }
+  
+  /* 链接 */
+a {
+    color: rgb(60, 112, 198);
+    text-decoration:none;
+    border-bottom: 1px solid rgb(60, 112, 198);
+  }
+  
+  /* 加粗 */
+strong {
+    line-height: 1.75em;
+    color: rgb(74,74,74);
+  }
+  
+  /* 斜体 */
+/*em {
+  }*/
+  
+  /* 加粗斜体 */
+em strong {
+    color:rgb(248,57,41);
+    letter-spacing:0.3em;
+  }
+  
+  /* 删除线 */
+
+/*  del {
+  }
+*/ 
+  /* 分割线 */
+hr {
+    height:1px;
+    padding:0;
+    border:none;
+    text-align:center;
+    background-image:linear-gradient(to right,rgba(60,122,198,0),rgba(60,122,198,0.75),rgba(60,122,198,0));
+  }
+  
+  /* 图片 */
+img {
+      display: block ;
+      margin: 0 auto;
+      border-radius:8px;
+      margin-bottom:25px;
+  }
+  
+  /* 图片描述文字 */
+figcaption {
+    display:block;
+    font-size:12px;
+    font-family:PingFangSC-Light;
+  }
+  
+  /* 行内代码 */
+p code, li code {
+      color: rgb(60, 112, 198);;
+  }
+  
+  /* 非微信代码块
+   * 代码块不换行 display:-webkit-box !important;
+   * 代码块换行 display:block;
+   */
+
+
+  /* 表格内的单元格
+   * 字体大小 font-size: 16px;
+   * 边框 border: 1px solid #ccc;
+   * 内边距 padding: 5px 10px;
+   */
+
+   body a:hover,body a:active{
+    text-decoration:underline
+    
+
+}
+body p,body blockquote,body .md-fences{
+    margin-bottom:1.5em
+    
+
+
+}
+body h1,body h2,body h3,body h4,body h5,body h6{
+    margin-bottom:1.5em
+    
+    
+
+}
+    body blockquote{
+        font-style:italic;
+    border-left:5px solid;
+    margin-left:2em;
+    padding-left:1em
+
+
+}
+body ul,body ol{
+    margin:0 0 1.5em 1.5em
+    
+
+}
+body ol li{
+    list-style-type:decimal;
+    list-style-position:outside
+
+
+}
+body ul li{
+    list-style-type:disc;
+    list-style-position:outside
+
+
+}
+body li>p{
+    margin-top:0;
+    margin-bottom:0
+
+
+}
+body .md-meta,body .md-before,body .md-after{
+    color:#999
+    
+
+}
+body table{
+    margin-bottom:1.5em;
+    font-size:1em
+
+
+}
+body thead th,body tfoot th{
+    padding:.25em .25em .25em .4em;
+    text-transform:uppercase
+
+
+}
+body th{
+    text-align:left
+
+}
+body td{
+    vertical-align:top;
+    padding:.25em .25em .25em .4em
+
+}
+body code,body .md-fences{
+    color:inherit;
+    background-color:#dadada;
+    padding-left:1ch;
+    padding-right:1ch
+
+}
+body pre code{
+    background-color:inherit
+    
+}
+body .md-fences{
+    margin-left:2em;
+    margin-bottom:3em
+
+}
+body .md-fences .CodeMirror.CodeMirror-wrap{
+    top:-0.8em
+    
+}
+body pre,body code,body tt{
+    font-size:.875em;
+    line-height:1.714285em
+
+
+}
+
+body p+ul,body p+ol{
+    margin-top:-1em
+    
+}
+body h3+ul,body h4+ul,body h5+ul,body h6+ul,body h3+ol,body h4+ol,body h5+ol,body h6+ol{
+    margin-top:.5em
+}
+body li>ul,body li>ol{
+    margin-top:inherit
+    
+}
+
+body hr{
+    border-top:none;
+    border-right:none;
+    border-bottom:1px solid;
+    border-left:none
+
+
+}
+
+body blockquote{
+    border-color:#bababa;
+    color:#656565;
+    background-color:#e6e4dc
+
+
+}
+body thead.md-table-edit{
+    background-color:transparent
+    
+
+}
+body thead{
+    background-color:#dadada
+    
+}
+body tr:nth-child(even){
+    background:#e8e7e7
+    
+    
+
+}
+    body hr{
+        border-color:#c5c5c5
+    
+    
+    
+    }
+    body .task-list{
+        padding-left:1rem
+    
+    
+    
+    }
+    body .task-list-item{
+        list-style-type:none;
+    margin-left:-1.8em
+
+
+}
+body .task-list-item .task-list-item-checkbox{
+    margin-right:.8em
+    
+
+}
+body .task-list-item input:before{
+    content:'\221A';
+    display:inline-block;
+    width:1.25rem;
+    height:1.5rem;
+    vertical-align:middle;
+    text-align:center;
+    color:#ddd;
+    background-color:#F3F2EE
+
+
+}
+body .task-list-item input:checked:before,body .task-list-item input[checked]:before{
+    color:inherit
+    
+
+}
+body kbd{
+    color:#1f0909
+    
+}
+.footnotes{
+    padding-top: 8px;
+  }
+  
+  /* 脚注文字 */
+.footnote-word {
+    color: rgb(60, 112, 198);
+  }
+  
+  /* 脚注上标 */
+.footnote-ref {
+    color: rgb(60, 112, 198);
+  }
+  
+  /* 脚注超链接样式 */
+.footnote-item em {
+    color: rgb(60, 112, 198);
+    font-size:13px;
+    font-style:normal;
+    border-bottom-color:1px dashed rgb(60, 112, 198); 
+  }
+  
+  /* "参考资料"四个字 
+   * 内容 content: "参考资料";
+   */
+.footnotes-sep:before {
+    background-image: none;
+    background-size: none;
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  /* 参考资料编号 */
+.footnote-num {
+    color: rgb(60, 112, 198);
+  }
+  
+  /* 参考资料文字 */
+.footnote-item p {
+    color: rgb(60, 112, 198);
+    font-weight:bold;
+  }
+  
+  /* 参考资料超链接 */
+.footnote-item a {
+    color:rgb(60, 112, 198);
+  }
+  
+  /* 参考资料解释 */
+.footnote-item p em {
+    font-size:14px;
+    font-weight:normal;
+    border-bottom:1px dashed rgb(60, 112, 198);
+  }
+  
+  /* 行间公式
+   * 最大宽度 max-width: 300% !important;
+ 
+ /*  
+.block-equation svg {
+    
+  }
+  */
+  /* 行内公式*/
+  /*
+.inline-equation svg {  
+  
+}*/
+  
+  /* 滑动图片
+   */
+.imageflow-img {
+    display: inline-block;
+    width:100%;
+    margin-bottom: 0;
+  }
